@@ -1,0 +1,17 @@
+PATH
+  remote: /Users/boga/Work/Makalu/MyMalls/translation_io/swift-translation-io
+  specs:
+    swift-translation-io (0.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  swift-translation-io!
+
+BUNDLED WITH
+   2.1.4

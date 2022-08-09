@@ -13,6 +13,7 @@
 		D846917228A2335E00F302CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D846917028A2335E00F302CF /* Main.storyboard */; };
 		D846917428A2336000F302CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D846917328A2336000F302CF /* Assets.xcassets */; };
 		D846917728A2336000F302CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D846917528A2336000F302CF /* LaunchScreen.storyboard */; };
+		D846918228A2509100F302CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D846918028A2509100F302CF /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		D846917328A2336000F302CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D846917628A2336000F302CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D846917828A2336000F302CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D846918128A2509100F302CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D846918428A2518700F302CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +59,7 @@
 		D846916928A2335E00F302CF /* TranslationSwiftExample */ = {
 			isa = PBXGroup;
 			children = (
+				D846918028A2509100F302CF /* Localizable.strings */,
 				D846916A28A2335E00F302CF /* AppDelegate.swift */,
 				D846916C28A2335E00F302CF /* SceneDelegate.swift */,
 				D846916E28A2335E00F302CF /* ViewController.swift */,
@@ -126,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D846917728A2336000F302CF /* LaunchScreen.storyboard in Resources */,
+				D846918228A2509100F302CF /* Localizable.strings in Resources */,
 				D846917428A2336000F302CF /* Assets.xcassets in Resources */,
 				D846917228A2335E00F302CF /* Main.storyboard in Resources */,
 			);
@@ -151,6 +156,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D846917128A2335E00F302CF /* Base */,
+				D846918428A2518700F302CF /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -161,6 +167,14 @@
 				D846917628A2336000F302CF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D846918028A2509100F302CF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D846918128A2509100F302CF /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
